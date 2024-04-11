@@ -37,7 +37,8 @@ public class DelimiterMatching {
                 return false; //
             }
         }
-    return stack.isEmpty();
+        System.out.println("Top: "+ top);
+        return stack.isEmpty();
     }
     
     
